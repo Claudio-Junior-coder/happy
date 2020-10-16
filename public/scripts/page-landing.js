@@ -1,13 +1,13 @@
-let txt = new Textos ();
+let txt = new Texts ();
 
 $(document).ready(function() {
 
-    txt.verificaLingua();
+    txt.verifyLanguage();
 
-    txt.setTextos();
+    txt.setTexts();
 });
 
-function trocarLinguagem() {
-    txt.trocaLingua();
-    txt.setTextos();
+function chooseLanguage() {
+    txt.chooseLanguage();
+    txt.setTexts();
 }

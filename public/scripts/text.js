@@ -1,5 +1,5 @@
 
-let Textos = function () {
+let Texts = function () {
 
     let tongue;
     let self = this;
@@ -39,7 +39,7 @@ let Textos = function () {
         if (tongue == "pt") {
             let array = {
                 'textIdiom': 'Escolha um idioma:',
-                'buttonLang': 'Translate for English',
+                'buttonLang': 'Translate for English &nbsp; <img class="img-banders" src="https://images.emojiterra.com/google/android-11/512px/1f1fa-1f1f8.png" >',
                 'translateHeader': 'Leve felicidade para o mundo',
                 'translateVisit': 'Visite orfanatos e mude o dia de muitas crianças',
                 'translateLocation': 'Localize um orfanato | Happy',
@@ -71,7 +71,7 @@ let Textos = function () {
         } else if(tongue === "en") {
             let array = {
                 'textIdiom': 'Choose a language:',
-                'buttonLang': 'Traduzir para Português',
+                'buttonLang': 'Traduzir para Português &nbsp; <img class="img-banders" src="https://images.emojiterra.com/google/android-11/512px/1f1e7-1f1f7.png" >',
                 'translateHeader': 'Bring happiness to the world',
                 'translateVisit': `Visit orphanages and change many children's day`,
                 'translateLocation': 'Locate an orphanage | Happy',
@@ -103,32 +103,32 @@ let Textos = function () {
     }
 
     self.setTexts = function(){
-        $('.textIdiom').html(txt.getTexto("textIdiom"));
-        $('.buttonLang').html(txt.getTexto("buttonLang"));
-        $('.translateHeader').html(txt.getTexto("translateHeader"));
-        $('.translateVisit').html(txt.getTexto("translateVisit"));
-        $('.translateLocation').html(txt.getTexto("translateLocation"));
-        $('.TranslateTextOneOrphanages').html(txt.getTexto("TranslateTextOneOrphanages"));
-        $('.TranslateTextPOneOrphanages').html(txt.getTexto("TranslateTextPOneOrphanages"));
-        $('.TranslateTextInstructionsOrphanage').html(txt.getTexto("TranslateTextInstructionsOrphanage"));
-        $('.TranslateWeekendYes').html(txt.getTexto("TranslateWeekendYes"));
-        $('.TranslateWeekendNot').html(txt.getTexto("TranslateWeekendNot"));
-        $('.TranslateContactText').html(txt.getTexto("TranslateContactText"));
-        $('.translateRoutesText').html(txt.getTexto("translateRoutesText"));
-        $('.titleTranslateOrphanage').html(txt.getTexto("titleTranslateOrphanage"));
-        $('.legendTranslateOrphanage').html(txt.getTexto("legendTranslateOrphanage"));
-        $('.touchInMapTranslateOrphanage').html(txt.getTexto("touchInMapTranslateOrphanage"));
-        $('.NameTranslateOrphanage').html(txt.getTexto("NameTranslateOrphanage"));
-        $('.AboutTranslateOrphanage').html(txt.getTexto("AboutTranslateOrphanage"));
-        $('.NumberWTranslateOrphanage').html(txt.getTexto("NumberWTranslateOrphanage"));
-        $('.PhotoTranslateOrphanage').html(txt.getTexto("PhotoTranslateOrphanage"));
-        $('.VisitionTranslateOrphanage').html(txt.getTexto("VisitionTranslateOrphanage"));
-        $('.InstructionsTranslateOrphanage').html(txt.getTexto("InstructionsTranslateOrphanage"));
-        $('.HourVisitionTranslateOrphanage').html(txt.getTexto("HourVisitionTranslateOrphanage"));
-        $('.OpenWeekendTranslateOrphanage').html(txt.getTexto("OpenWeekendTranslateOrphanage"));
-        $('.yesTranslateWeekeend').html(txt.getTexto("yesTranslateWeekeend"));
-        $('.noTranslateWeekeend').html(txt.getTexto("noTranslateWeekeend"));
-        $('.translateSubmitButton').html(txt.getTexto("translateSubmitButton"));
+        $('.textIdiom').html(txt.getText("textIdiom"));
+        $('.buttonLang').html(txt.getText("buttonLang"));
+        $('.translateHeader').html(txt.getText("translateHeader"));
+        $('.translateVisit').html(txt.getText("translateVisit"));
+        $('.translateLocation').html(txt.getText("translateLocation"));
+        $('.TranslateTextOneOrphanages').html(txt.getText("TranslateTextOneOrphanages"));
+        $('.TranslateTextPOneOrphanages').html(txt.getText("TranslateTextPOneOrphanages"));
+        $('.TranslateTextInstructionsOrphanage').html(txt.getText("TranslateTextInstructionsOrphanage"));
+        $('.TranslateWeekendYes').html(txt.getText("TranslateWeekendYes"));
+        $('.TranslateWeekendNot').html(txt.getText("TranslateWeekendNot"));
+        $('.TranslateContactText').html(txt.getText("TranslateContactText"));
+        $('.translateRoutesText').html(txt.getText("translateRoutesText"));
+        $('.titleTranslateOrphanage').html(txt.getText("titleTranslateOrphanage"));
+        $('.legendTranslateOrphanage').html(txt.getText("legendTranslateOrphanage"));
+        $('.touchInMapTranslateOrphanage').html(txt.getText("touchInMapTranslateOrphanage"));
+        $('.NameTranslateOrphanage').html(txt.getText("NameTranslateOrphanage"));
+        $('.AboutTranslateOrphanage').html(txt.getText("AboutTranslateOrphanage"));
+        $('.NumberWTranslateOrphanage').html(txt.getText("NumberWTranslateOrphanage"));
+        $('.PhotoTranslateOrphanage').html(txt.getText("PhotoTranslateOrphanage"));
+        $('.VisitionTranslateOrphanage').html(txt.getText("VisitionTranslateOrphanage"));
+        $('.InstructionsTranslateOrphanage').html(txt.getText("InstructionsTranslateOrphanage"));
+        $('.HourVisitionTranslateOrphanage').html(txt.getText("HourVisitionTranslateOrphanage"));
+        $('.OpenWeekendTranslateOrphanage').html(txt.getText("OpenWeekendTranslateOrphanage"));
+        $('.yesTranslateWeekeend').html(txt.getText("yesTranslateWeekeend"));
+        $('.noTranslateWeekeend').html(txt.getText("noTranslateWeekeend"));
+        $('.translateSubmitButton').html(txt.getText("translateSubmitButton"));
 
     }
 
